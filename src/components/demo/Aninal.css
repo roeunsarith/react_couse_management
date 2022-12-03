@@ -1,0 +1,13 @@
+.container{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: aqua;
+    margin: 1rem;
+    padding: 10px;
+}
+.animals{
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}

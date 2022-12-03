@@ -1,0 +1,77 @@
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bar1{
+  justify-content: space-between;
+  height: 35px;
+  /* background-color: #2B3856; */
+}
+.bar1 .add{
+  height: 100%;
+  line-height: 35px;
+  padding: 0 1rem;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  cursor: pointer;
+  /* color: #fff; */
+  opacity: 8;
+}
+.bar1 .add:hover{
+  opacity: 10;
+  background-color: rgba(100, 148, 237, 0.607);
+}
+.bar1 .search input{
+  padding: .7rem;
+  width: 15rem;
+  background-color: #eee;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.content{
+  width: 100%;
+  float: left;
+}
+.content .frm{
+  width: 35%;
+  float: left;
+  padding: 3rem  5rem;
+}
+.content .frm .frm-control{
+  width: 100%;
+  float: left;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 5px;
+  background-color: #eee;
+}
+.content .frm .btn{
+  width: 100%;
+  justify-content: space-between;
+}
+.content .frm .btn .Add{
+  padding: 0.4rem 1rem;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.content .frm .btn .Clear{
+  padding: 0.4rem 1rem;
+  background-color: green;
+  border-radius: 5px;
+  cursor: pointer;
+}

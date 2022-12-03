@@ -1,0 +1,60 @@
+.containers{
+    width: 100%;
+    float: left;
+    background-color:antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.containers .products{
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.products .img-box{
+    width: 100%;
+    height: 10rem;
+    float: left;
+}
+.products .img-box img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.products .title{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    float: left;
+}
+.products .price{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+.products .price .full{
+    text-decoration: line-through;
+    color: red;
+}
+.products .price .dis{
+    color: green;
+}
+.colors{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.color{
+    width: 20px;
+    height: 20px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    margin-right: 1px;
+}

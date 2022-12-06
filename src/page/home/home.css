@@ -1,0 +1,50 @@
+.title{
+    width: 100%;
+    float: left;
+    padding: .5rem 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.262);
+    font-size: 18px;
+    font-weight:bold;
+}
+.cards{
+    width: 100%;
+    float: left;
+    margin-top: 2rem;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
+    grid-template-columns:repeat(4,1fr);
+    gap: 1rem;
+}
+.card{
+    background-color: aqua;
+    float: left;
+    height: 10rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.card .name{
+    width: 100%;
+    float: left;
+    padding: 1rem;
+    font-weight: 600;
+}
+.card .profile{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.profile .box{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+.profile .num{
+    text-align: center;
+}

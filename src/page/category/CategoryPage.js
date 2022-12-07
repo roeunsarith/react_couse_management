@@ -21,7 +21,6 @@ const CategoryPage =()=>{
     const handleNew =()=>{
         navigate('/category/create');
     }
-
     const handleEedit =(item)=>{
         navigate('/category/edit/'+item.category_id);
     }
@@ -57,6 +56,7 @@ const CategoryPage =()=>{
     
      const onSearch = ()=>{
         getList();
+        console.log("Hehe");
     }
 
     const onChangeSearch =(e)=>{
